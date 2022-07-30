@@ -1,0 +1,2 @@
+<h1>My favorite template engine is <%= it.favorite %> <br></h1>
+<a href='app.js'>source</a>
