@@ -7,7 +7,6 @@ COPY ./src .
 RUN npm install
 
 # Create app directory
-RUN mkdir -p /usr/src/app
 RUN useradd appuser && echo "flag{3T@_T3mp1@t3}" > /flag
 
 USER appuser:appuser
