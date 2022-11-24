@@ -12,5 +12,5 @@ RUN npm install
 
 EXPOSE 49008
 
-USER appuser:appuser
-CMD [ "node", "app.js" ]
+# USER appuser:appuser
+# CMD [ "node", "app.js" ]
